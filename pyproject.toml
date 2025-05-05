@@ -1,0 +1,15 @@
+[project]
+name = "qwen-vl"
+description = ""
+version = "1.0.0"
+license = {file = "LICENSE"}
+dependencies = ["accelerate>=1.0", "bitsandbytes", "huggingface-hub>=0.26.2", "numpy", "pillow>=9.4.0", "qwen-vl-utils", "torch>=2.0.1", "torchvision>=0.15.2", "transformers>=4.46", "modelscope", "Requests"]
+
+[project.urls]
+Repository = "https://github.com/SXQBW/ComfyUI-Qwen-VL"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "ComfyUI-Qwen-VL"
+Icon = ""
